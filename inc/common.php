@@ -13,7 +13,7 @@ class ConstantcontactMailmunchHelpers {
     }
 
     if (empty($cc_mm_password)) {
-      update_option("cc_mm_user_password", uniqid());
+      update_option("cc_mm_user_password", base64_encode(uniqid()));
     }
 
     $cc_mm_email = get_option("cc_mm_user_email");
