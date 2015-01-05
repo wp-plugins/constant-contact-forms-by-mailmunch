@@ -37,7 +37,7 @@ Easily create sign-up forms for your Constant Contact list and display it as a p
 * Un-subscribe users from Constant Contact lists
 * View subscriber Constant Contact profiles
 * View individual form subscriber count
-* Display multiple forms on a single page
+* Display multiple Constant Contact forms on a single page
 * Easily add Constant Contact forms to pages and posts with a button in the page/post editor
 
 After installation and creating your account, the plugin will guide you through connecting with Constant Contact, selecting your Constant Contact List from our service, and then adding the form to your site. The time from starting installation to have the form on your site should be less than 5 minutes - absolutely everything can be done via our user friendly GUI - no file editing at all!
@@ -104,6 +104,7 @@ Why people use Constant Contact
 * Constant Contact has better list management
 * Constant Contact has great error messaging
 * Constant Contact has interest groups/segments
+* Constant Contact is a big company
 
 == Screenshots ==
 
