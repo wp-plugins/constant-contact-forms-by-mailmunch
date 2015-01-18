@@ -15,6 +15,8 @@ The #1 Constant Contact plugin to get more email subscribers. Easily add Constan
 
 What is [Constant Contact](http://www.constantcontact.com/)? Constant Contact is one of the best email marketing tools. Signup up and see for yourself!
 
+[vimeo http://vimeo.com/117103275]
+
 Our improved signup plugin for Constant Contact will proactively sign-up new subscribers to your newsletter list. Our forms offer the same basic features that Constant Contact's official plugin, but also much more. In addition to the form, analytics will help you track the number of form views and subscriptions.
 
 = Sign-Up Forms =
