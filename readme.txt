@@ -38,7 +38,7 @@ Easily create sign-up forms for your Constant Contact list and display it as a p
 * Redirect users to a page on submission
 * Un-subscribe users from Constant Contact lists
 * View subscriber Constant Contact profiles
-* View individual form subscriber count
+* View individual Constant Contact form subscriber count
 * Display multiple Constant Contact forms on a single page
 * Easily add Constant Contact forms to pages and posts with a button in the page/post editor
 
@@ -84,7 +84,7 @@ You don't have to worry about that. We will guide you through the process.
 After you connect your Constant Contact account, the plugin will fetch all of your Constant Contact list information and load it into the plugin admin. You can simply choose the lists you want to make forms for.
 
 = How do I add the Constant Contact sign up forms to my site? =
-We offer a variety of forms: Popups, Embedded, Top Bar, etc. You can choose which pages, posts or categories to show it on. You can also use a shortcode to add a form to a specific area in a page or post. Everything is done visually.
+We offer a variety of Constant Contact forms: Popups, Embedded, Top Bar, etc. You can choose which pages, posts or categories to show it on. You can also use a shortcode to add a Constant Contact form to a specific area in a page or post. Everything is done visually.
 
 = Does this plugin slow down my site? =
 Absolutely not. Constant Contact by MailMunch is designed with high performance and scalability in mind. It's completely asynchronous and hosted on Amazon's highly scalable infrastructure. Some of our customers have very high traffic websites.
