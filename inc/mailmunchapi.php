@@ -36,17 +36,6 @@
       return $this->ping('/sites/'.$site_id.'/widgets/'.$widget_id.'/delete');
     }
 
-    function importWidgets($new_user_email, $new_user_password) {
-      $this->requestType = 'post';
-      return $this->ping('/wordpress/import_widgets', array(
-        'external_id' => get_option("cc_mm_wordpress_instance_id"),
-        'new_user_email' => $new_user_email,
-        'new_user_password' => $new_user_password,
-        'site_url' => home_url(),
-        'site_name' => get_bloginfo()
-      ));
-    }
-
     function hasSite() {
       $request = $this->sites();
       $sites = $request['body'];
@@ -101,11 +90,12 @@
       ), true);
     }
 
-    function updateGuest($new_email) {
+    function updateGuest($new_email, $new_password) {
       $this->requestType = 'post';
       return $this->ping('/wordpress/update_guest', array(
         'user' => array(
           'email' => $new_email,
+          'password' => $new_password,
           'guest_user' => false
           )
       ), true);
@@ -160,7 +150,7 @@
         $request = wp_remote_post($url, $args);
       }
 
-      if ( !is_wp_error( $request ) && $request['response']['code'] == 500 ) {
+      if ( !is_wp_error( $request ) && ( $request['response']['code'] == 500 || $request['response']['code'] == 503 ) ) {
         return new WP_Error( 'broke', "Internal Server Error" );
       }
 
