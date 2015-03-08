@@ -17,7 +17,7 @@ What is [Constant Contact](http://www.constantcontact.com/)? Constant Contact is
 
 [vimeo http://vimeo.com/117103275]
 
-Our improved signup plugin for Constant Contact will proactively sign-up new subscribers to your newsletter list. Our forms offer the same basic features that Constant Contact's official plugin, but also much more. In addition to the form, analytics will help you track the number of form views and subscriptions.
+Our improved signup plugin for Constant Contact will proactively sign-up new subscribers to your newsletter list. Our forms offer the same basic features that Constant Contact's official plugin, but also much more. In addition to the Constant Contact form, analytics will help you track the number of form views and subscriptions.
 
 = Sign-Up Forms =
 Easily create sign-up forms for your Constant Contact list and display it as a popup, embedded widget or a top bar.
@@ -42,7 +42,7 @@ Easily create sign-up forms for your Constant Contact list and display it as a p
 * Display multiple Constant Contact forms on a single page
 * Easily add Constant Contact forms to pages and posts with a button in the page/post editor
 
-After installation and creating your account, the plugin will guide you through connecting with Constant Contact, selecting your Constant Contact List from our service, and then adding the form to your site. The time from starting installation to have the form on your site should be less than 5 minutes - absolutely everything can be done via our user friendly GUI - no file editing at all!
+After installation and creating your account, the plugin will guide you through connecting with Constant Contact, selecting your Constant Contact List from our service, and then adding the form to your site. The time from starting installation to have the Constant Contact form on your site should be less than 5 minutes - absolutely everything can be done via our user friendly GUI - no file editing at all!
 
 == Installation ==
 
@@ -107,6 +107,7 @@ Why people use Constant Contact
 * Constant Contact has great error messaging
 * Constant Contact has interest groups/segments
 * Constant Contact is a big company
+* Constant Contact is reliable
 
 == Screenshots ==
 
