@@ -107,7 +107,15 @@ class Constantcontact_Mailmunch_Public {
 		 * between the defined hooks and the functions defined in this
 		 * class.
 		 */
+		
+	}
 
+	/**
+	 * Register the stylesheets for the public-facing side of the site.
+	 *
+	 * @since    2.0.1
+	 */
+	public function append_head() {
 		$siteID = get_option(CONSTANTCONTACT_MAILMUNCH_PREFIX. '_site_id');
 
 		if (is_single() || is_page()) {
