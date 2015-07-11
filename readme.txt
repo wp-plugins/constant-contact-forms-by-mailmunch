@@ -3,7 +3,7 @@ Contributors: mailmunch
 Tags: constant contact, Constant Contact form, Constant Contact Newsletter form, Constant Contact plugin, newsletter, newsletter form, newsletter form plugin, optin form, form, signup, signup forms, signup form, widget, email form, leads
 Requires at least: 3.0.1
 Tested up to: 4.2
-Stable tag: 2.0.0
+Stable tag: 2.0.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -32,7 +32,7 @@ Easily create sign-up forms for your Constant Contact list and display it as a p
 * Monitor Constant Contact account activity
 * Use Constant Contact Interest Group/Segments
 * Add Constant Contact forms to posts, pages, or categories
-* Set forms to single or double opt-in for Constant Contact
+* Set Constant Contact forms to single or double opt-in for Constant Contact
 * Send Constant Contact welcome email
 * Customize the success message and submit button text
 * Redirect users to a page on submission
@@ -53,7 +53,7 @@ This section describes how to install the plugin and get started using it.
 2. Activate the plugin through the 'Plugins' menu in WordPress
 3. Look for "Constant Contact" in the WordPress admin menu and click it
 4. Sign up and create your first optin form
-5. Choose the optin form type: Popover, Embedded or Top Bar
+5. Choose the Constant Contact form type: Popover, Embedded or Top Bar
 6. Connect Constant Contact and choose a list
 7. Start collecting user emails and growing your subscriber list!
 
@@ -90,7 +90,7 @@ We offer a variety of Constant Contact forms: Popups, Embedded, Top Bar, etc. Yo
 Absolutely not. Constant Contact by MailMunch is designed with high performance and scalability in mind. It's completely asynchronous and hosted on Amazon's highly scalable infrastructure. Some of our customers have very high traffic websites.
 
 = How many more emails will list builder help me get? =
-Most people see a 100% to 500% growth in their email subscribers.
+Most people see a 100% to 500% growth in their Constant Contact subscribers.
 
 == Other Notes ==
 
