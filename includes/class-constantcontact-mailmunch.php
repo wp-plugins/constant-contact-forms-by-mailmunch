@@ -18,7 +18,7 @@ define( 'CONSTANTCONTACT_MAILMUNCH_URL', "http://wordpress.mailmunch.co" );
 define( 'CONSTANTCONTACT_MAILMUNCH_HOME_URL', "http://app.mailmunch.co" );
 define( 'CONSTANTCONTACT_MAILMUNCH_SLUG', "constantcontact-mailmunch" );
 define( 'CONSTANTCONTACT_MAILMUNCH_PREFIX', 'cc_mm' );
-define( 'CONSTANTCONTACT_MAILMUNCH_VERSION', '2.0.2' );
+define( 'CONSTANTCONTACT_MAILMUNCH_VERSION', '2.0.3' );
 
 /**
  * The core plugin class.
