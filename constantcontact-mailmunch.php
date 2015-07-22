@@ -16,7 +16,7 @@
  * Plugin Name:       Constant Contact Forms by MailMunch
  * Plugin URI:        http://connect.constantcontact.com/integrations/mailmunch-email-list-builder
  * Description:       The Constant Contact plugin allows you to quickly and easily add signup forms for your Constant Contact lists. Popup, Embedded, Top Bar and a variety of different options available.
- * Version:           2.0.0
+ * Version:           2.0.3
  * Author:            MailMunch
  * Author URI:        http://www.mailmunch.co
  * License:           GPL-2.0+

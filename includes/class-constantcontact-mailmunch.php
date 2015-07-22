@@ -18,7 +18,7 @@ define( 'CONSTANTCONTACT_MAILMUNCH_URL', "http://wordpress.mailmunch.co" );
 define( 'CONSTANTCONTACT_MAILMUNCH_HOME_URL', "http://app.mailmunch.co" );
 define( 'CONSTANTCONTACT_MAILMUNCH_SLUG', "constantcontact-mailmunch" );
 define( 'CONSTANTCONTACT_MAILMUNCH_PREFIX', 'cc_mm' );
-define( 'CONSTANTCONTACT_MAILMUNCH_VERSION', '2.0.0' );
+define( 'CONSTANTCONTACT_MAILMUNCH_VERSION', '2.0.3' );
 
 /**
  * The core plugin class.
@@ -95,7 +95,7 @@ class Constantcontact_Mailmunch {
 
 		$this->plugin_name = 'Constant Contact Forms by MailMunch';
 		$this->integration_name = 'Constant Contact';
-		$this->version = '2.0.0';
+		$this->version = '2.0.1';
 
 		$this->load_dependencies();
 		$this->set_locale();
@@ -222,6 +222,7 @@ class Constantcontact_Mailmunch {
 
 		$this->loader->add_action( 'wp_enqueue_scripts', $plugin_public, 'enqueue_styles' );
 		$this->loader->add_action( 'wp_enqueue_scripts', $plugin_public, 'enqueue_scripts' );
+		$this->loader->add_action( 'wp_head', $plugin_public, 'append_head' );
 
 		$autoEmbed = get_option(CONSTANTCONTACT_MAILMUNCH_PREFIX. '_auto_embed');
 		if (empty($autoEmbed) || $autoEmbed == 'yes') {

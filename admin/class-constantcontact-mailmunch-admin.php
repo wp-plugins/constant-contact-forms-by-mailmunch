@@ -251,16 +251,9 @@ class Constantcontact_Mailmunch_Admin {
 				$var = $this->mailmunch_api->getPrefix(). 'constantcontact_access_token';
 				if (isset($_POST['list_id'])) {
 					update_option($this->mailmunch_api->getPrefix(). 'constantcontact_list_id', $_POST['list_id']);
-
-					require_once plugin_dir_path( dirname( __FILE__ ) ) . 'includes/constantcontact_api.php';
-					$constantcontactApi = new ConstantcontactApi(get_option($var));
-					$list = $constantcontactApi->getListById($_POST['list_id']);
-					if (!empty($list)) {
-						$listName = $list['name'];
-					}
 					$accessToken = get_option($this->mailmunch_api->getPrefix(). 'constantcontact_access_token');
 
-					$this->mailmunch_api->createListAndIntegration($accessToken, $listName, $_POST['list_id']);
+					$this->mailmunch_api->createIntegration($accessToken, $_POST['list_id']);
 				}
 				require_once(plugin_dir_path( __FILE__ ) . 'partials/constantcontact-mailmunch-admin-display.php');
 		}
